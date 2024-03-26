@@ -9,17 +9,81 @@ Wheatstone encryption uses two 5x5 matrices, which are either one below the othe
 
 As an example, below is a vertical Wheatstone cipher with the keywords "example" and "keyword":
 
-E	X	A	M	P
-L	B	C	D	F
-G	H	I	J	K
-N	O	R	S	T
-U	V	W	Y	Z
+<table>
+  <tr>
+    <td>E</td>
+    <td>X</td>
+    <td>A</td>
+    <td>M</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>G</td>
+    <td>H</td>
+    <td>I</td>
+    <td>J</td>
+    <td>K</td>
+  </tr>
+  <tr>
+    <td>N</td>
+    <td>O</td>
+    <td>R</td>
+    <td>S</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>U</td>
+    <td>V</td>
+    <td>W</td>
+    <td>Y</td>
+    <td>Z</td>
+  </tr>
+</table>
 
-K	E	Y	W	O
-R	D	A	B	C
-F	G	H	I	J
-L	M	N	P	S
-T	U	V	X	Z
+<table>
+  <tr>
+    <td>K</td>
+    <td>E</td>
+    <td>Y</td>
+    <td>W</td>
+    <td>O</td>
+  </tr>
+  <tr>
+    <td>R</td>
+    <td>D</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>G</td>
+    <td>H</td>
+    <td>I</td>
+    <td>J</td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td>M</td>
+    <td>N</td>
+    <td>P</td>
+    <td>S</td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>U</td>
+    <td>V</td>
+    <td>X</td>
+    <td>Z</td>
+  </tr>
+</table>
 
 Let's say you need to encrypt the plaintext hello world using the keywords "example" and "keyword". The bigrams of this message will be replaced as follows:
 1. The bigram HE has a unique case, it is located in one column, replace it with XG.
