@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wheatstone cipher", "Wheatstone cipher\Wheatstone cipher.csproj", "{42FBECFE-24E3-4EFC-8EDE-347E30C38E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42FBECFE-24E3-4EFC-8EDE-347E30C38E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FBECFE-24E3-4EFC-8EDE-347E30C38E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FBECFE-24E3-4EFC-8EDE-347E30C38E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FBECFE-24E3-4EFC-8EDE-347E30C38E76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4041713-26D1-432D-AC4D-9B5DBAFC3A5A}
+	EndGlobalSection
+EndGlobal
